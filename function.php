@@ -50,7 +50,7 @@
                 $bg = "#ffffff";
         ?>
 
-            <tr bgcolor="{?$bg?}">
+            <tr bgcolor="{?=$bg?}">
                 
             <?php for($j = 1;$j<10;$j++):?>
                 <td>
