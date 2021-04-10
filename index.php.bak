@@ -1,0 +1,43 @@
+<?php
+ 
+
+ $a = 10;
+ $b = $a;
+ $b = 5;
+ echo $a,$b,'</br>';
+
+ $c = 10;
+ $d = &$c;
+ $d = 5;
+ echo $c,$d,'</br>';
+
+ define('PI',3.14);
+
+ const PII = 3;
+
+
+
+ define('-_-','smile');
+
+ echo PI;
+ echo constant('-_-');
+
+ //系统常量
+
+ echo PHP_INT_MAX,"</br>",PHP_INT_SIZE,"</br>",PHP_VERSION;
+
+ //魔术常量
+
+ echo '<hr/>';
+
+ echo __DIR__,'<br/>',__FILE__,'<br/>',__LINE__,'<br/>';
+ echo __LINE__;
+ 
+ //整形的四中类型
+
+ $a = 120;
+ $b = 0b110;
+ $c = 0120;
+ $d = 0x120;
+
+ echo $a,'~',$b,'~',,$c,'~',$d;
